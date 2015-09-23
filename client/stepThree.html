@@ -1,0 +1,9 @@
+<template name="stepThree">
+  <form>
+    <input type="text" name="comment">
+    {{#if errorMessage}}
+      <p class="error">{{errorMessage}}</p>
+    {{/if}}
+    <button type="submit">Comment</button>
+  </form>
+</template>
