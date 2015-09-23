@@ -1,7 +1,7 @@
 <template name="stepTwo">
   <form>
     Notifications:
-    <button type="button" data-name="notify">
+    <button type="button" data-name="notify" data-active="{{doc.notify}}">
         {{#if doc.notify}} On {{else}} Off {{/if}}
     </button>
   </form>
